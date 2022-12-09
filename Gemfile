@@ -26,6 +26,8 @@ gem "stimulus-rails"
 
 gem 'dotenv', '~> 2.8', '>= 2.8.1'
 
+gem "rack-cors", :require => 'rack/cors'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 

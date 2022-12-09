@@ -2,3 +2,17 @@
   [1m[35m (43.9ms)[0m  [1m[35mCREATE DATABASE "myapp_test" ENCODING = 'unicode'[0m
   [1m[35m (2.1ms)[0m  [1m[35mCREATE DATABASE "myapp_development" ENCODING = 'unicode'[0m
   [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE "myapp_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-12-09 17:01:15 +0800
+Processing by StaticController#home as HTML
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1818)
+
+
+Started GET "/vulnerability-management" for ::1 at 2022-12-09 17:01:26 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/vulnerability-management"):
+  
+Started GET "/" for ::1 at 2022-12-09 17:01:28 +0800
+Processing by StaticController#home as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
